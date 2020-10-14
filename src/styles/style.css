@@ -1,0 +1,66 @@
+/***************************
+BASE CONFIGURATION
+***************************/
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+html,
+body
+{
+    background-color: #fff;
+    color: #5a5a5a;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/***************************
+MAIN CONTENT
+***************************/
+
+main 
+{
+   width: 90%;
+   max-width: 800px;
+   margin: 32px auto;
+   padding: 20px;
+   overflow: auto;
+   transition: margin-left .5s;
+}
+
+/***************************
+LIST
+***************************/
+
+meal-list {
+   display: block;
+   margin-top: 32px;
+   width: 100%;
+   padding: 16px;
+}
+
+/***************************
+MEDIA QUERIES
+***************************/
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
