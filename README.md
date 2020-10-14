@@ -1,4 +1,4 @@
-# WebsitePortofolioBDPW
+# WebsiteResepMakananBFWD
 **Ini adalah website resep makanan yang dibuat untuk submisi kelas "Belajar Fundamental Front-end Web Development**  
 
 ### Di kelas ini kita belajar untuk memulai membuat sebuah website Standar ES6 JavaScript, Custom Element, Module Bundler, Webpack, AJAX, dan API  
