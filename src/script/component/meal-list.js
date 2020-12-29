@@ -25,8 +25,7 @@ class MealList extends HTMLElement {
         this.shadowDOM.innerHTML = `
         <style>
              .placeholder {
-                   font-weight: lighter;
-                   color: rgba(0,0,0,0.5);
+                   color: #ff6b6b;
                    -webkit-user-select: none;
                    -moz-user-select: none;
                    -ms-user-select: none;

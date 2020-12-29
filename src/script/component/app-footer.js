@@ -19,6 +19,7 @@ class AppFooter extends HTMLElement {
                    background-color: #ff6b6b;
                    text-align: center;
                    font-weight: bold;
+                   text-decoration : none;
                 }
 
                 @media only screen and (max-width: 1100px) 
@@ -86,7 +87,8 @@ class AppFooter extends HTMLElement {
 
             </style>
             <footer>    
-                <p>Belajar Fundamental Front-End Web Development <br> &#169; 2020, Submisi Bryan Yehuda M</p>
+                <p>&#169; 2019-2021 Bryan Yehuda Mannuel<br>
+                <a href="https://github.com/BryanYehuda">Visit Bryan Yehuda's Github</a></p>
             <footer>`;
    }
 }
